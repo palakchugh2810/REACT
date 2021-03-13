@@ -1,0 +1,38 @@
+<html>
+<head>
+
+
+</head>
+
+<body>
+    <div id ="data">
+
+    </div>
+</body>
+<script type="text/javascript">
+    const address= {
+    city:"bglr",
+    state: "karnatka",
+    country:"India"
+    
+    }
+    const person={
+        address:{
+            billing :{
+                city:"bglr",
+                state: "karnatka",
+                country:"India"
+          
+        }
+    }
+    }
+    const details = ["palak","chugh"];
+    const [fname,lsname] = details;
+    //Destructuring in ES6 instead of calling like city = person.address.billing.city
+    const {city,state,country}=person.address.billing;
+    //document.write("city is "+city+" state is <br/>"+state+" country is "+country);
+    //document.getElementById("data").innerHTML=country;
+    document.write("details "+fname);
+    
+    </script>
+</html>

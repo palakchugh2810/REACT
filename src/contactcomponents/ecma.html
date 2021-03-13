@@ -1,0 +1,29 @@
+<html>
+    <body>
+<script type="text/javascript">
+
+class Vehicle{
+
+    constructor(modal,wheel){
+        this.modal=modal;
+        this.wheel=wheel;
+    }
+
+
+}
+
+class Car extends Vehicle{
+
+constructor(modal,wheel,steering){
+
+    super(modal,wheel);
+    this.steering=steering;
+}
+
+
+}
+const carObj= new Car(i,4,2);
+document.write(carObj.modal+"wheels "+carObj.wheel);
+</script>
+    </body>
+</html>

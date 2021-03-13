@@ -1,0 +1,10 @@
+.completedStyle{
+    font-Style : italics;
+    color:  green;
+    text-Decoration:  line-through
+
+}
+.notCompletedStyle{
+
+    background-color: red
+}
